@@ -19,22 +19,22 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://cal.com/victorwilliams/30min"
+            href="mailto:aaqibmouhi@gmail.com?subject=Let's%20work%20together!&body=Hello%20Aaqib%2C%20I%20would%20like%20to%20discuss%20a%20project%20opportunity..."
             target="_blank"
-            aria-label="BOOK A CALL"
+            aria-label="CONTACT ME"
           >
             <motion.button
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
-              BOOK A CALL
+              CONTACT ME
             </motion.button>
           </Link>
         </div>
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://github.com/Aqibabass"
             target="_blank"
             aria-label="View GitHub Profile"
           >
@@ -46,7 +46,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href="https://www.linkedin.com/in/aaqib-mouhi-ud-din-a9002a219/"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
@@ -57,28 +57,18 @@ const Hero = () => {
               LN
             </motion.p>
           </Link>
+         
+          
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://www.instagram.com/aqibabass/"
             target="_blank"
-            aria-label="View Twitter Profile"
+            aria-label="View Instagram Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              TW
-            </motion.p>
-          </Link>
-          <Link
-            href="https://contra.com/victorwilliams"
-            target="_blank"
-            aria-label="View Contra Profile"
-          >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              CO
+              IG
             </motion.p>
           </Link>
         </div>
@@ -88,10 +78,12 @@ const Hero = () => {
         <div
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
-          <AnimatedWords
-            title="VICTOR WILLIAMS"
-            style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
-          />
+          <div className="text-center">
+            <AnimatedWords
+              title="AAQIB MOUHI-UD-DIN"
+              style="inline-block overflow-hidden pt-1 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold whitespace-nowrap"
+            />
+          </div>
           <motion.div
             className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
             variants={imageAnimation}
@@ -99,8 +91,8 @@ const Hero = () => {
             <Image
               src={profile}
               priority
-              alt="Victor's headshot"
-              data-blobity-tooltip="Giga Chad"
+              alt="Aaqib's headshot"
+              data-blobity-tooltip="Deep Fried Aura"
               data-blobity-invert="false"
               className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
@@ -118,14 +110,14 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Web Designer, prev at{" "}
+            Full-Stack Developer and AI Enthusiast, prev intern at{" "}
             <Link
-              href="https://www.korahq.com/"
+              href="https://www.jkbank.com/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
-              aria-label="Kora Website"
+              aria-label="J&K Bank Website"
             >
-              Kora,
+              J&K Bank Corporate HQ,
             </Link>{" "}
             currently available for work.
           </p>
@@ -136,8 +128,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Lagos,
-            Nigeria.
+            I Engineer Smart Platforms, Build Robust Systems, and Craft Experiences That Matter. Based in Kashmir, India.
           </p>
         </motion.div>
       </div>
