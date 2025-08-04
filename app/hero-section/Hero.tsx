@@ -79,10 +79,16 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
           <div className="text-center">
-            <AnimatedWords
-              title="AAQIB MOUHI-UD-DIN"
-              style="inline-block overflow-hidden pt-1 text-4xl sm:text-5xl md:text-6xl lg:text-[10rem] xl:text-[10rem] font-bold whitespace-nowrap"
-            />
+            <span className="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4" style={{opacity: 1, transform: 'none'}}>
+  <AnimatedWords
+    title="AAQIB"
+    style="inline-block text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[10rem] font-bold whitespace-nowrap"
+  />
+</span>
+<AnimatedWords
+  title="MOUHI-UD-DIN"
+  style="inline-block overflow-hidden pt-1 text-6xl sm:text-7xl md:text-8xl lg:text-8xl xl:text-9xl 2xl:text-[10rem] font-bold whitespace-nowrap"
+/>
           </div>
           <motion.div
             className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
