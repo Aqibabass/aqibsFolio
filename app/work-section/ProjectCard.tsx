@@ -102,25 +102,21 @@ const ProjectCard = ({
         )}
       </div>
       <div
-        className={`absolute text-white  ${
+        className={`absolute text-white ${
           !(id % 2 === 0)
-            ? "right-0 top-32 mr-0 ml-10 md:right-0 md:ml-0 lg:right-0 lg:top-60  lg:mr-4"
-            : "left-10 top-32 ml-0 md:mr-12 lg:top-52 lg:ml-4"
-        } mb-10  md:mb-16 lg:mb-14 `}
+            ? "right-0 top-32 mr-0 ml-4 md:right-0 md:ml-0 lg:right-0 lg:top-56 lg:mr-6"
+            : "left-4 top-32 ml-0 md:mr-8 lg:top-48 lg:ml-6"
+        } mb-6 md:mb-10 lg:mb-10 w-[90%] max-w-[480px] flex flex-col items-start`}
       >
         <AnimatedTitle
           text={name}
-          className={
-            "max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none"
-          }
+          className="w-full text-[32px] leading-tight text-white md:text-[40px] lg:text-[44px] font-bold mb-2"
           wordSpace={"mr-[0.25em]"}
           charSpace={"-mr-[0.01em]"}
         />
         <AnimatedBody
           text={description}
-          className={
-            "mt-4 w-[90%] max-w-[457px] text-[16px] font-semibold text-[#95979D] "
-          }
+          className="mt-2 w-full text-[15px] md:text-[16px] lg:text-[17px] font-medium text-[#b0b3bb] mb-4"
         />
         <div className="mt-9 flex gap-4">
           {technologies.map((tech, id) => (

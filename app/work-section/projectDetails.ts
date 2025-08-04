@@ -15,17 +15,17 @@ export const devProjects = [
     name: "TravelMate",
     description:
       "A travel platform powered by AI to generate smart itineraries with hotel booking, maps integration, and secure user access.",
-    technologies: ["React.js", "Node.js", "MongoDB", "Gemini AI", "Razorpay"],
+    technologies: ["React.js", "Node.js", "MongoDB", "Gemini", "Razorpay"],
     github: "https://github.com/Aqibabass",
     demo: "https://final-project-mu-nine.vercel.app/",
     image: require(".//../../public/projects/odunsi.png"),
-    available: false,
+    available: true,
   },
   {
     id: 1,
-    name: "POS Merchant Onboarding System",
+    name: "POS Onboarder",
     description:
-      "A role-based banking portal built during an internship at J&K Bank, featuring merchant onboarding, form validations, and secure authentication.",
+      "A role-based banking portal built during an internship at J&K Bank, featuring merchant onboarding.",
     technologies: ["PHP", "MySQL", "JavaScript", "HTML5", "CSS3"],
     github: "https://github.com/Aqibabass",
     demo: "",
@@ -34,7 +34,7 @@ export const devProjects = [
   },
   {
     id: 2,
-    name: "Employee Management System",
+    name: "StaffHub",
     description:
       "A desktop application to manage employee records with admin controls and a digital leave application system.",
     technologies: ["Java", "GUI", "MySQL", "JDBC"],
