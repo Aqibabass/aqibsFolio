@@ -81,7 +81,7 @@ const Hero = () => {
           <div className="text-center">
             <AnimatedWords
               title="AAQIB MOUHI-UD-DIN"
-              style="inline-block overflow-hidden pt-1 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold whitespace-nowrap"
+              style="inline-block overflow-hidden pt-1 text-4xl sm:text-5xl md:text-6xl lg:text-[10rem] xl:text-[10rem] font-bold whitespace-nowrap"
             />
           </div>
           <motion.div
