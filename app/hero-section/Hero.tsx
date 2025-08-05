@@ -9,7 +9,7 @@ import profile from "../../public/profile.webp";
 const Hero = () => {
   return (
     <motion.section
-      className="relative z-10 flex h-[85vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh] 3xl:h-[85vh]"
+      className="relative z-10 flex h-screen w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover bg-center py-0"
       id="home"
       initial="initial"
       animate="animate"

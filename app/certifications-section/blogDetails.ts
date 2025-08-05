@@ -11,7 +11,7 @@ export const certificationDetails = [
   {
     title: "POS Merchant Onboarding System",
     organization: "J&K Bank Limited",
-    image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=1000&auto=format&fit=crop",
+    image: "/projects/jkbank.svg",
     date: "July - August 2024",
     description: "Completed internship developing POS merchant onboarding system with role-based access controls and backend development training.",
     index: 0
@@ -19,7 +19,7 @@ export const certificationDetails = [
   {
     title: "Machine Learning with Data Science",
     organization: "PHN Technology Pvt. Ltd.",
-    image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=1000&auto=format&fit=crop", 
+    image: "/projects/phn.svg", 
     date: "April - June 2023",
     description: "Successfully completed intensive training in Machine Learning and Data Science using Python, demonstrating exceptional skills and commitment.",
     index: 1
