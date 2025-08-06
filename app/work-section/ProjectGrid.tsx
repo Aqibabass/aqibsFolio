@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { devProjects, designProjects, ProjectProps } from "./projectDetails";
+import { devProjects, ProjectProps } from "./projectDetails";
 import { useState } from "react";
 import AnimatedWords2 from "../animations/AnimatedWords2";
 import { monaSans } from "../fonts/monaSans";

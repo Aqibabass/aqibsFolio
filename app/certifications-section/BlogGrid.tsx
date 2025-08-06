@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const CertificationGrid = () => {
   return (
-    <section className="relative z-10 flex w-full flex-col items-center justify-center overflow-hidden bg-[#0E1016] bg-grid-white/[0.2]">
-      <div className="mt-10 flex w-full flex-col items-center justify-center">
+    <section className="relative z-10 flex w-full flex-col items-center justify-center overflow-hidden bg-[#0E1016] bg-grid-white/[0.2] pb-20"> {/* Added pb-20 for bottom padding */}
+      <div className="flex w-full flex-col items-center justify-center"> {/* Removed mt-10 to reduce top spacing */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{
